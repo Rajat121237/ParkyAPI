@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParkyAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ParkyAPI.Controllers.NationalparksController.GetNationalParks">
+            <summary>
+            Get All the National Parks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.NationalparksController.GetNationalPark(System.Int32)">
+            <summary>
+            Get Individual National Park
+            </summary>
+            <param name="nationalParkId">Id for the National Park</param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailController.GetTrails">
+            <summary>
+            Get all the Trails
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailController.GetTrail(System.Int32)">
+            <summary>
+            Get trail based on the id.
+            </summary>
+            <param name="trailId">Trail ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailController.CreateTrail(ParkyAPI.Models.Dtos.TrailCreateDto)">
+            <summary>
+            Create a new Trail.
+            </summary>
+            <param name="trailDto">Trail Object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailController.UpdateTrail(System.Int32,ParkyAPI.Models.Dtos.TrailUpdateDto)">
+            <summary>
+            Update the existing trail.
+            </summary>
+            <param name="trailId">Trail ID</param>
+            <param name="trailDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ParkyAPI.Controllers.TrailController.DeleteNationalPark(System.Int32)">
+            <summary>
+            Delete the existing Trail.
+            </summary>
+            <param name="trailId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
