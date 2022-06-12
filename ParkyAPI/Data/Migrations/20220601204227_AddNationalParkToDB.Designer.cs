@@ -9,7 +9,7 @@ using ParkyAPI.Data;
 
 namespace ParkyAPI.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(Data.ApplicationDbContext))]
     [Migration("20220601204227_AddNationalParkToDB")]
     partial class AddNationalParkToDB
     {
